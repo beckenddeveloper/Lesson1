@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+}
+.all{
+    display: flex;
+}
+.company{
+    background-color: red;
+    color: white;
+    width: 23%;
+    height: 100vh;
+    position: fixed;
+}
+.company h1{
+    font-family: arial;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.text h3{
+    font-family: arial;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.design h1{
+    margin-left: 380px;
+    margin-top: 30px;
+    font-family: arial;
+    font-size: 45px;
+}
+.design h2{
+    margin-left: 380px;
+    margin-top: 15px;
+    color: red;
+    font-family: arial;
+    font-size: 35px;
+
+}
+.surato{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 340px;
+    margin-top: 40px;
+}
+.surato img{
+    width: 45%;
+}
+.surato2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 340px;
+    margin-top: 40px;
+}
+.surato2 img{
+    width: 45%;
+}
+.text1{
+    margin-left: 380px;
+    margin-top: 50px;
+}
+.text1 h1{
+    font-family: arial;
+    color: red;
+    font-size: 45px;
+}
+.pp{
+   margin: 20px 0px;
+}
+.text1 p{
+    font-family: arial;
+    font-size: 17px;
+    line-height: 1.7;
+}
+hr{
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.head{
+    margin-left: 380px;
+    margin-top: 10px;
+}
+.head h3{
+    font-family: arial;  
+}
+.head1{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    background-color: rgb(219, 218, 218);
+    padding: 20px;
+    border-radius: 10px;
+}
+.head1 img{
+   width: 340px;
+   opacity:0.8; 
+}
+.john h1{
+    font-family: arial;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.john h3{
+    font-family: Arial;
+    font-size: 18px;
+    color: grey;
+    padding-bottom: 25px;
+}
+.john p{
+    font-family: arial;
+    line-height: 1.5;
+}
+.text2 h1{
+    margin-bottom: 20px
+}
+.text2 p{
+    margin-top: 20px;
+}
+.allpro{
+    display: flex;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+.basic{
+    border: 1px solid grey;
+}
+.basic h1{
+    width: 350px;
+    font-family: arial;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 25px 65px;
+   
+}
+.basic p{
+    border: 1px solid grey;
+    background-color:rgb(236, 231, 231) ;
+    width: 35%;
+    text-align: center;
+    font-family: arial;
+    padding: 25px 155px;
+   
+}
+.basic2{
+    margin-left: 100px;
+    border: 1px solid grey;
+}
+.basic2 h1{
+    background-color: red;
+}
+.basic button{
+    padding: 15px 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.basic button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.email{
+    margin-left: 380px;
+    height: 700px;
+}
+.email label{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: arial;
+}
+.email input{
+    padding: 10px 450px;
+    border-radius: 5px;
+} 
+.email button{
+    padding: 20px 490px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red ;
+    color: white;
+    border-radius: 5px;
+}
+.email button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+    br{
+        display: none;
+    }
+    .company{
+        width: 60%;
+        height: 100px;
+        position: fixed;
+        z-index: 3;
+    }
+    .company h1{
+        font-size: 40px;
+        padding-top: 20px;
+        padding-left: 20px;
+        
+    }
+    .all{
+        flex-direction: column;
+    }
+   .text{
+    display: none;
+   }
+   .design{
+    position: relative;
+    right: 310px;
+    top: 100px;
+   }
+   .design h1, h2{
+    font-size: 60px;
+   }
+   .surato{
+    display: flex;
+    flex-direction: column;
+   }
+   .surato2{
+    display: flex;
+    flex-direction: column;
+   }
+   .surato img{
+     width: 490%;
+     margin-left: 20px;
+     margin-bottom: 20px;
+   }
+   .surato2 img{
+     width: 490%;
+     margin-left: 20px;
+     margin-bottom: 20px;
+   }
+   .text1 h1{
+    position: relative;
+    top: 50px;
+    right: 310px;
+    font-size: 80px;
+   }
+   .text1 hr{
+    position: relative;
+    top: 50px;
+    right: 310px;
+   }
+   .text1 p{
+    width: 600%;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    right: 310px;
+   }
+   .head h3{
+    width: 400%;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    right: 300px;
+   }
+   .head1{
+    display: flex;
+     flex-direction: column;
+     position: relative;
+     right: 310px;
+     top: 50px;
+     width: 500%;
+   }
+   .head1 img{
+     width: 400px;
+   }
+    .john h1{
+       font-size: 45px; 
+    }
+    .john h3{
+        font-size: 25px;
+    }
+    .john p{
+        font-size: 25px;
+    }
+    .allpro{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 310px;
+        top:40px;
+    }
+    .basic h1{
+        width: 525%;
+    }
+    .basic p{
+        width: 370%;
+    }
+    .basic2 h1{
+        width: 3025%;
+    }
+    .basic2 p{
+        width: 370%;
+    }
+    .email{
+        position: relative;
+        right: 310px;
+        top: 40px;
+    }
+    .email label{
+        font-size: 25px;
+     }
+     .email input{
+        padding: 10px 320px;
+     }
+     .email button{
+        padding: 20px 380px;
+     }
+   }
+ 
